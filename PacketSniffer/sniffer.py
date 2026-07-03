@@ -9,7 +9,7 @@ No third-party libraries. Everything is unpacked from raw bytes using
 the `struct` module, so you see exactly how each header is laid out.
 
 MUST be run as root (raw sockets require elevated privileges):
-    sudo python3 packet_sniffer.py
+    sudo python3 sniffer.py
 
 Only run this on networks / machines you own or have explicit
 permission to monitor.
